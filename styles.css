@@ -1,5 +1,6 @@
 body{
     background-color: #6960EB;
+    
 }
 
 
@@ -12,5 +13,27 @@ body{
     height: 60px;
     background-color: azure;
     border-radius: 15px;
+    
 }
 
+#yo{
+    background-color: azure;
+    border-radius: 15px;
+    align-items: center;
+    padding-inline-start: 20px; /*lo separa de la linea dell cuadro donde estan*/
+}
+
+#contenedor{
+    background-color: azure;
+    border-radius: 15px;
+    flex-wrap: wrap;
+    padding-block-start: 20px;
+    gap: 10px;
+
+}
+
+#footer{
+    background-color: azure;
+    border-radius: 15px;
+    padding-inline-start: 25px;
+}
