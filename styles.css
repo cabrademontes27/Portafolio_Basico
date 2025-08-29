@@ -1,0 +1,16 @@
+body{
+    background-color: #6960EB;
+}
+
+
+#bar{
+    /*los coloca hasta arriba y los separa entre si */
+    display:  flex; 
+    justify-content: space-around;
+    width: 100;
+    align-items:center ; /*los centra verticalmente papii */
+    height: 60px;
+    background-color: azure;
+    border-radius: 15px;
+}
+
